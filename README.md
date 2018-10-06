@@ -4,13 +4,7 @@
 
 ### Hall of Fame (aka top contributors):     
 
-[![0](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/Project-Somaiya-Classroom/images/0)](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/Project-Somaiya-Classroom/links/0)
-[![1](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/Project-Somaiya-Classroom/images/1)](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/Project-Somaiya-Classroom/links/1)
-[![2](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/Project-Somaiya-Classroom/images/2)](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/Project-Somaiya-Classroom/links/2)
-[![3](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/Project-Somaiya-Classroom/images/3)](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/Project-Somaiya-Classroom/links/3)
-[![5](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/Project-Somaiya-Classroom/images/5)](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/Project-Somaiya-Classroom/links/5)
-[![6](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/Project-Somaiya-Classroom/images/6)](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/Project-Somaiya-Classroom/links/6)
-[![7](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/Project-Somaiya-Classroom/images/7)](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/Project-Somaiya-Classroom/links/7)
+[![](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/CollApp/images/0)](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/CollApp/links/0)[![](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/CollApp/images/1)](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/CollApp/links/1)[![](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/CollApp/images/2)](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/CollApp/links/2)[![](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/CollApp/images/3)](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/CollApp/links/3)[![](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/CollApp/images/4)](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/CollApp/links/4)[![](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/CollApp/images/5)](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/CollApp/links/5)[![](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/CollApp/images/6)](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/CollApp/links/6)[![](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/CollApp/images/7)](https://sourcerer.io/fame/arghyadeep99/arghyadeep99/CollApp/links/7)
 ---
 #### An interactive one stop web app solution to manage your hectic college life!
 ![CollApp](/media/start.jpg) 

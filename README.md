@@ -35,7 +35,15 @@
 * After adding any feature:
 	* Goto your fork and create a pull request.
 	* We will test your modifications and merge changes.
-	
+------------------------------------------
+### Installation
+
+* Install dependencies
+```sh
+        $ pip3 install -r requirements.txt
+```
+
+------------------------------------------
 ### Note
 
 - This project was done under `24 hours with no pre-preparation`

@@ -1,6 +1,8 @@
 # CollApp
 
 [![HitCount](http://hits.dwyl.io/arghyadeep99/Project-Somaiya-Classroom.svg)](http://hits.dwyl.io/arghyadeep99/Project-Somaiya-Classroom) [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)  [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+<br/>
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
 ### Hall of Fame (aka top contributors):     
 
@@ -34,6 +36,18 @@
 	* Goto your fork and create a pull request.
 	* We will test your modifications and merge changes.
 	
+### Note
+
+- This project was done under `24 hours with no pre-preparation`
+
+------------------------------------------
+### Contributors
+
+- [@2knal](https://github.com/2knal)
+- [@arghyadeep99](https://github.com/arghyadeep99)
+- [@vtg2000](https://github.com/vtg2000)
+- [@anay121](https://github.com/anay121)
 ---
+
 **Happy Coding!** :smile:
 

@@ -1,8 +1,9 @@
 # CollApp
 
-[![HitCount](http://hits.dwyl.io/arghyadeep99/Project-Somaiya-Classroom.svg)](http://hits.dwyl.io/arghyadeep99/Project-Somaiya-Classroom) [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)  [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
-<br/>
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+<p align="center">
+	
+[![HitCount](http://hits.dwyl.io/arghyadeep99/Project-Somaiya-Classroom.svg)](http://hits.dwyl.io/arghyadeep99/Project-Somaiya-Classroom)  [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)  [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)  [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+
 
 ### Hall of Fame (aka top contributors):     
 

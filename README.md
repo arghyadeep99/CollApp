@@ -22,6 +22,27 @@
 * Google Calendar API used to show a Google user's event list. 
 ---
 
+<div align="center">
+
+<h3 > CollApp as web-app  </h3>
+<br>
+<img src="./first.gif" width=700px>
+
+<br>
+
+<img src="./second.gif" width=700px>
+
+<br>
+
+<img src="./third.gif" width=700px>
+
+<br>
+<img src="./fourth.gif" width=700px>
+
+</div>
+
+------------------------------------------
+
 ### TODOs:
 * [ ] Scrape internship and student offers. 
 * [ ] Statistical attendance visualization.

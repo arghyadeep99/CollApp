@@ -1,0 +1,12 @@
+{% extends "blog/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class = "container">
+    <iframe id = "cal" src="#" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+</div>
+<script>
+    var s1 = "{{ user.email }}".split('@')
+    console.log(s1)
+    document.getElementById('cal').setAttribute("src", "https://calendar.google.com/calendar/embed?src="+s1[0] +"%40"+s1[1]+"&ctz=Asia%2FCalcutta")
+</script>
+{% endblock content %}

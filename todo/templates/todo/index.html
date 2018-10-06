@@ -1,0 +1,100 @@
+{% load static %}
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Colapp-To-do list</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" type="text/css" href="{% static 'todo/style.css' %}">
+   <link rel="stylesheet" type="text/css" href="{% static 'blog/main.css' %}">
+</head>
+<body>
+        <header class="site-header" >
+                <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top" id = 'nav_bar'>
+                  <div class="container" >
+                    {% if user.is_authenticated %}
+                    <a class="navbar-brand mr-4" id = 'nav_bar' href="{% url 'profile' %}">CollApp</a>
+                    {% else %}
+                    <a class="navbar-brand mr-4" id = 'nav_bar' href="{% url 'register' %}">CollApp</a>
+                    {% endif %}
+                    <button class="navbar-toggler" id = 'nav_bar' type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarToggle">
+                      <div class="navbar-nav mr-auto">
+          
+          
+                      <!-- Navbar Right Side -->
+                      <div class="navbar-nav" id = 'nav_bar'>
+                        {% if user.is_authenticated %}
+                          <a class="nav-item nav-link" href="{% url 'TodoList' %}">New Task</a>
+                          <a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>
+                          <a class="nav-item nav-link" href="{% url 'calendar' %}">Calendar</a>
+                          <a class="nav-item nav-link" href="https://frapp.in/internships-in-india">Internships</a>
+                          <a class="nav-item nav-link" href="http://kjsce-abhiyantriki.org/events.html">Events</a>
+                          <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
+                          
+                        {% else %}
+          
+                          <a class="nav-item nav-link" href="{% url 'login' %}">Login</a>
+                          <a class="nav-item nav-link" href="{% url 'register' %}">Register</a>
+                        {% endif %}
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+              </header>
+
+<br>
+
+
+<div django-app="TaskManager">
+    <div class="container">
+            <div class="content">
+            <h1>To-Do's</h1>
+                <br>
+            <form action="" method="post">
+            {% csrf_token %} <!-- csrf token for basic security -->
+                <div class="inputContainer">
+                    <input type="text" id="description" class="taskName" placeholder="What do you need to do?" name="description" required>
+                    <label for="description">Description</label>
+                </div>
+                <div class="inputContainer half last">
+                    <i class="fa fa-caret-down selectArrow"></i>
+                    <select id="category" class="taskCategory" name="category_select">
+                    <option class="disabled" value="">Choose a category</option>
+                    {% for category in categories %}
+                        <option class="" value="{{ category.name }}" name="{{ category.name }}">{{ category.name }}</option>
+                    {% endfor %}
+                    </select>
+                    <label for="category">Category</label>
+                </div>
+                <div class="inputContainer half last right">
+                    <input type="date" id="dueDate" class="taskDate" name="date">
+                    <label for="dueDate">Due Date</label>
+                </div>
+                <div class="row">
+                        <button class="btn btn-outline-info"  name="taskAdd" type="submit">
+                           <!-- <i class="fa fa-plus icon"></i>-->
+                        Add Task
+                        </button>
+                        <button class="btn btn-outline-info"  name="taskDelete" formnovalidate="" type="submit" onclick="$('input#sublist').click();"><!--<i class="fa fa-trash-o icon">--></i>Delete Tasks</button>
+                </div>
+            <ul class="taskList">
+            {% for todo in todos %} <!-- django template lang - for loop -->
+                <li class="taskItem">
+                    <input type="checkbox" class="taskCheckbox" name="checkedbox" id="{{ todo.id }}" value="{{ todo.id }}">
+                    <label for="{{ todo.id }}"><span class="complete-">{{ todo.title }}</span></label>
+                    <span class="category-{{ todo.category }}">{{ todo.category }}</span>
+                    <strong class="taskDate"><i class="fa fa-calendar"></i>{{ todo.created }} - {{ todo.due_date }}</strong>
+                </li>
+            {% endfor %}
+            </ul><!-- taskList -->
+            </form>
+            </div><!-- content -->
+ </div><!-- container -->
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>

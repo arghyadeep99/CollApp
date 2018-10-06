@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Collapp</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style type = 'text/css' rel = 'stylesheet' href = 'login.css'></style>
+</head>
+<body background =  "media/start.jpg"  style=" background-attachment: fixed;
+background-position: center; background-size: cover;">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <div  align = 'center' >
+            <a class="nav-item nav-link"   style = "width: 150px; height: 60px" href="{% url 'login' %}">
+        <button id = 'btn1' class="btn btn-outline-info"  style="width: 150px; height: 60px; background-color:lightblue; color:darkblue;">
+            Login
+        </button >
+        
+    </a>
+    <br>
+        
+        <a class="nav-item nav-link" style = "width: 150px; height: 60px" href="{% url 'register' %}">
+        <button id = 'btn1' class="btn btn-outline-info" style="width: 150px; height: 60px; background-color:lightblue; color:darkblue;">
+            Register
+        </button>
+    </a>
+    </div>
+    
+</body>
+</html>
+

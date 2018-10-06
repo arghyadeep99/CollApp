@@ -11,7 +11,14 @@
 
 ---
 #### An interactive one stop web app solution to manage your hectic college life!
-![CollApp](/media/start.jpg) 
+
+<div align="center">
+	
+<br>
+
+<img src="media/start.jpg" width=700px>
+
+</div>
 
 ---
 

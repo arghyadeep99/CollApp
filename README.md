@@ -53,7 +53,8 @@
 ### TODOs:
 * [ ] Scrape internship and student offers. 
 * [ ] Statistical attendance visualization.
-* [ ] Notify users for attendance below given criteria.
+* [ ] Notify users for attendance below given criteria.at
+* [ ] Integrate the web app with Google Assistant to manage attendance on the go! 
  
 ---
 
